@@ -1,6 +1,6 @@
 using System;
 
-namespace Rental.Api.Models
+namespace Rental.Data
 {
     /// <summary>
     /// Class to store information about movies
@@ -11,7 +11,7 @@ namespace Rental.Api.Models
         /// Id of the movie
         /// </summary>
         public Guid Id { get; set; }
-        
+
         /// <summary>
         /// Title of movie
         /// </summary>
